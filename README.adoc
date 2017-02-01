@@ -10,9 +10,7 @@ Remember to chmod +x *.sh on these scripts to make them executable.
 
 This script downloads products from PivNet. Your PivNet token is found on network.pivotal.io in your profile. It is the API TOKEN located at the bottom of the Edit Profile page.
 
-+
 image::pivnet-profile.png[]
-+
 
 The first parameter is your PivNet token
 The second paramter is the name of the downloaded file. I usually use the Filename posted for the release (see image below)
@@ -23,9 +21,7 @@ An example of running this script:
 ```
 $ ../scripts/downloadtile.sh PIVNET_TOKEN cf-1.9.4-build.1.pivotal https://network.pivotal.io/api/v2/products/elastic-runtime/releases/3875/product_files/12073/download
 ```
-+
 image::pivnet-product.png[]
-+
 
 ## importtile.sh
 
